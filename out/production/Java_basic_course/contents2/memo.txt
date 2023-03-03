@@ -8,3 +8,31 @@
 num1が符号付きまたは符号なしの整数または小数点以下を持つ数値文字列である場合、
 isNumericはtrueに設定されます。
 そうでない場合、isNumericはfalseに設定されます。
+
+## Contents2_5
+returnとbreakの場合
+returnの場合
+{
+   処理
+
+　　while(true){
+    処理
+    return；
+    }
+
+    //ここに処理を書いても動かない。上のreturn時にmethod内の処理が終わる
+}
+
+breakの場合
+{
+   処理
+
+　　while(true){
+    処理
+    break；
+    }
+
+    //ここに処理を書いてもbreakでmethodないの処理が終わらない
+    //while分の中の処理が終わるだけ
+    System.out.println("hogehoge")
+}
