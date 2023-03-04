@@ -10,8 +10,14 @@ public class CliInputAdapter {
         scanner = new Scanner(System.in);
     }
 
-    public CalculatorInput getCalculatorInput() {
-        double number1 = getNumber("1");
+    public CalculatorInput getCalculatorInput(Double num,Double kai) {
+        double number1;
+        if (kai == 1) {
+            number1 = getNumber("1");
+        }else{
+            number1 = num;
+            System.out.println("1の値を入力してください: 前回のnum:" + num +"を使用");
+        }
         char operator = getOperator();
         double number2 = getNumber("2");
         return new CalculatorInput(number1, operator, number2);
@@ -29,7 +35,7 @@ public class CliInputAdapter {
     }
 
     public char getOperator() {
-        System.out.print("演算子を入力してください(+, -, *, /): ");
+        System.out.println("演算子を入力してください(+, -, *, /): ");
         String input = scanner.next();
         if (input.length() != 1 || !"+-*/".contains(input)) {
             System.err.println("不正な演算子です");
