@@ -157,6 +157,7 @@ public class Contents4_2 {
 
         while(true) {
             System.out.println("ベッドする数値を入力してください。数値は0～36です。賭けない場合、Nを入力");
+            System.out.println("初心者メモ：ベッドする数値とは0~36のルーレットのどこを選びますか？という意味です。");
             scanner = new Scanner(System.in);
             String numBet = null;
             numBet = scanner.nextLine();
