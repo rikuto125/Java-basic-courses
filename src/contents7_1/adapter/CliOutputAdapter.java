@@ -1,6 +1,6 @@
-package contents7.adapter;
+package contents7_1.adapter;
 
-import contents7.domain.CalculatorResult;
+import contents7_1.domain.CalculatorResult;
 
 public class CliOutputAdapter {
     public void printResult(CalculatorResult result) {

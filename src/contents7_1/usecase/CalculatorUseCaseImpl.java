@@ -1,8 +1,8 @@
-package contents7.usecase;
+package contents7_1.usecase;
 
-import contents7.domain.Calculator;
-import contents7.domain.CalculatorException;
-import contents7.domain.CalculatorResult;
+import contents7_1.domain.Calculator;
+import contents7_1.domain.CalculatorException;
+import contents7_1.domain.CalculatorResult;
 
 public class CalculatorUseCaseImpl implements CalculatorUseCase {
     private Calculator calculator;

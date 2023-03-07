@@ -1,4 +1,4 @@
-package contents7.domain;
+package contents7_1.domain;
 
 public class CalculatorInput {
     private double number1;

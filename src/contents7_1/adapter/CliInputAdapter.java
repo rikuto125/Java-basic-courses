@@ -1,6 +1,6 @@
-package contents7.adapter;
+package contents7_1.adapter;
 
-import contents7.domain.CalculatorInput;
+import contents7_1.domain.CalculatorInput;
 import java.util.Scanner;
 
 public class CliInputAdapter {

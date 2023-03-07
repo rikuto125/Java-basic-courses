@@ -1,4 +1,4 @@
-package contents7.domain;
+package contents7_1.domain;
 public class CalculatorResult {
     private final double result;
 

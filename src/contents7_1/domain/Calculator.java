@@ -1,4 +1,4 @@
-package contents7.domain;
+package contents7_1.domain;
 
 public class Calculator {
     public CalculatorResult calculate(double number1, char operator, double number2) throws CalculatorException {

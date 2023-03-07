@@ -1,12 +1,12 @@
-package contents7;
-import contents7.adapter.CliInputAdapter;
-import contents7.adapter.CliOutputAdapter;
-import contents7.domain.Calculator;
-import contents7.domain.CalculatorException;
-import contents7.domain.CalculatorInput;
-import contents7.domain.CalculatorResult;
-import contents7.usecase.CalculatorUseCase;
-import contents7.usecase.CalculatorUseCaseImpl;
+package contents7_1;
+import contents7_1.adapter.CliInputAdapter;
+import contents7_1.adapter.CliOutputAdapter;
+import contents7_1.domain.Calculator;
+import contents7_1.domain.CalculatorException;
+import contents7_1.domain.CalculatorInput;
+import contents7_1.domain.CalculatorResult;
+import contents7_1.usecase.CalculatorUseCase;
+import contents7_1.usecase.CalculatorUseCaseImpl;
 
 public class Main {
     public static void main(String[] args) {
